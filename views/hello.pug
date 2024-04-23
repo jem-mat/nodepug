@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title Movies
+  body
+    table
+      tbody
+        each customer in movies
+          tr
+            td #{customer.firstname}
+            td #{customer.lastname}
+            td #{customer.email}
+            td #{customer.phone}
